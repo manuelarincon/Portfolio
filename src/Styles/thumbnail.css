@@ -1,0 +1,19 @@
+.thumnail {
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+
+.myClass {
+    background-color: aquamarine;
+    font-size: 400px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img:hover {
+    box-shadow: 0 4px 8px 0 rgba(181, 186, 208, 0.432), 0 6px 20px 0 #7389AE;
+}

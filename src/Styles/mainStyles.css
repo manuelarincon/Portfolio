@@ -1,0 +1,68 @@
+.topNavigation {
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+}
+
+.log {
+    float: left;
+    padding-left: 2.5%;
+}
+
+.email {
+    float: right;
+    padding-right: 1%;
+}
+
+.languages{
+    float: right;
+    padding-right: 4%;
+}
+
+.navbar {
+    position: inline;
+    padding-top: .7%;
+}
+
+.log:hover {
+    color: #7389AE;
+}
+.email:hover {
+    color: #7389AE;
+}
+.languages:hover {
+    color: #7389AE;
+}
+
+.mainContent {
+    margin-top: 1%; /* Add a top margin to avoid content overlay */
+    height: 100vh;
+    overflow: auto;
+}
+
+.bottomElements {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.bottomElements p {
+    vertical-align: middle;
+}
+
+.projects{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.bio {
+    margin-left: 7%;
+}
