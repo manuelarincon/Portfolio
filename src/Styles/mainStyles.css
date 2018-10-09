@@ -11,16 +11,29 @@
 .log {
     float: left;
     padding-left: 2.5%;
+    padding-top: .3%;
+    color: white; 
+}
+
+.log:hover {
+    color: #7389AE;
+}
+
+.log:visited {
+    color: rosybrown;
 }
 
 .email {
     float: right;
     padding-right: 1%;
+    padding-top: .3%;
+    color: white;   
 }
 
 .languages{
     float: right;
     padding-right: 4%;
+    padding-top: .3%;
 }
 
 .navbar {
@@ -28,9 +41,7 @@
     padding-top: .7%;
 }
 
-.log:hover {
-    color: #7389AE;
-}
+
 .email:hover {
     color: #7389AE;
 }
@@ -45,7 +56,6 @@
 }
 
 .bottomElements {
-    position: relative;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -54,15 +64,27 @@
     color: white;
     text-align: center;
 }
-.bottomElements p {
-    vertical-align: middle;
+.copyRight {
+    display: -webkit-inline-box;
 }
 
 .projects{
     padding-left: 7%;
     padding-right: 7%;
+    overflow: hidden;
 }
 
-.bio {
-    margin-left: 7%;
+.bodyContentLink {
+    text-decoration: none;
+    color: black;
+}
+
+.headerContentLink {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7389AE;
 }
