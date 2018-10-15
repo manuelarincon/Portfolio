@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         <div className="projects">
             <Thumbnail internalLink ="/Terry" image = "../Images/1323Thum.png" title = "Terry" description = "Building Exterior + Wayfinding" technologies = "Presentation | Wayfinding | Team | Mockups"/>
-            <Thumbnail internalLink ="/freshAir" image = "../Images/methodsThum.png" title = "Fresh Air" description = "Subsription service to replace air filters in home/apartment" technologies = "Wire Framing | UI | Branding"/>
+            <Thumbnail internalLink ="/TLN" image = "../Images/TLNThum.png" title = "TLN" description = "Weighing Automation Systems company rebrand" technologies = "Wire Framing | UI | Branding | Logo | Rebrand"/>
             <Thumbnail internalLink ="/Ergo" image = "../Images/ErgoThum.png" title = "Ergo Health" description = "Log in screen concept for UT Medical Center." technologies = "Wire Framing | UI | UX | Team"/>
             <Thumbnail internalLink ="/John" image = "../Images/JohnThum.png" title = "John" description = "Personal trainer app" technologies = "Wire Framing | UX"/>
             <Thumbnail internalLink ="/DD" image = "../Images/DDThum.png" title = "DD" description = "Watch with built in breathalyzer in attempts to prevent drunk driving and educate. Concept." technologies = "Wire Framing | UI | UX"/>

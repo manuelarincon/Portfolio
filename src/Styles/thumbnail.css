@@ -1,6 +1,7 @@
 .thumnail {
     width: 29%;
-    float: left;
+    height: 350px;
+    display: inline-block;
     padding: 1%;
 }
 
