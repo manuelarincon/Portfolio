@@ -7,7 +7,7 @@ import './Styles/terry.css';
 
 
 export class DD extends React.Component {
-    descriptionComponents = [{topic: "Concept: ", topicDes:"A descrit tool that would help user keep track of their XX and prevent them from drunk driving while"+
+    descriptionComponents = [{topic: "Concept: ", topicDes:"A descrit tool that would help user keep track of their BAC and prevent them from drunk driving while"+
                              "educating them on their bodys alcahol limits/tolerance. " },
                              {topic: "Solution: ", topicDes:"Wearable watch with built in breathalyzer. "},
                              {topic: "Technologies: ", topicDes:"Mockups, UI, Research"}]

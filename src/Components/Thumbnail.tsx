@@ -12,11 +12,11 @@ export const Thumbnail  = (props: {
 
     return (
         <div className="thumnail">
-                <Link to={props.internalLink}><img src={props.image} alt='FreshAir Project'></img></Link> <br/>
-                <div className="glleryDescription">
-                    <p>&mdash;{props.title}<br/>
-                    {props.description}<br/>
-                    {props.technologies}
+                <Link to={props.internalLink}><img src={props.image} alt='Project Thumbnail'></img></Link> <br/>
+                <div>
+                    <p><p className="projName">&mdash;{props.title}</p>
+                    <p className="description">{props.description}</p>
+                    <p className="technologies">{props.technologies}</p>
                     </p>
                 </div>
             </div>

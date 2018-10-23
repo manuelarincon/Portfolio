@@ -5,34 +5,35 @@ import {PageSection} from './Components/pageSections';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Styles/terry.css';
 
-export class Methods extends React.Component {
-    descriptionComponents = [{topic: "Task: ", topicDes:"Practice a research method and collect intell for a week to then visually display."},
-                             {topic: "Solution: ", topicDes:"Keep track of the type of my music along with listening time throughout a normal week at University."},
-                             {topic: "Technologies: ", topicDes:"Infographic, Poster, Research"}]
+export class John extends React.Component{
+    descriptionComponents = [{topic: "Concept: ", topicDes:"A means of communication for John and his clients outside of the gym."},
+                             {topic: "Solution: ", topicDes:"A moble application for John to send messages and keep track of his clients throughout their fitness journey." +
+                                                            "The application would also have short demonstations of exercises and a way for the client to keep track of thier progress."},
+                             {topic: "Technologies: ", topicDes:"Wireframe, UX"}]
     
     render() {
         const printedDescriptions = this.descriptionComponents.map( t => <DescriptionComponent {...t} />)
         var test = () => {
 
         }
-
-        return(
+        return (
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='MethodOne' tagline='Music Snapshot' /> <br />
+                <PageTitles pageTitle='John' tagline='Personal Trainer App' /> <br />
                 {printedDescriptions}
                 </div>
                 <div>
-                    <PageSection sectionTitle='Final' /> <br />
+                    <PageSection sectionTitle='Wireframes' /> <br />
                 </div>
                 <div className="projectNoHover">
-                    <img src="./Images/Methods/musicSnapshot.png" ></img>
+                    <img src="./Images/John/wireframes.png" />
                 </div>
                 <br />
             </div>
-        );
+        )
     }
 }
+
 
 const DescriptionComponent = (props: {
     topic: String,

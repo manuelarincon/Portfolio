@@ -1,8 +1,26 @@
+@font-face {
+    font-family: "Body";
+    src: url("../Fonts/helvetica.otf") format("woff")
+  }
+
 .thumnail {
-    width: 29%;
-    height: 350px;
-    display: inline-block;
     padding: 1%;
+    font-family: 'Body', Fallback, Helvetica;
+}
+
+.technologies {
+    font-style: italic;
+    color: gray;
+    font-size: small;
+}
+
+.description {
+    font-size: medium;
+}
+
+.projName {
+    font-weight: bold;
+    font-size: large;
 }
 
 img {

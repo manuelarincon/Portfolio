@@ -5,34 +5,34 @@ import {PageSection} from './Components/pageSections';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Styles/terry.css';
 
-export class Methods extends React.Component {
-    descriptionComponents = [{topic: "Task: ", topicDes:"Practice a research method and collect intell for a week to then visually display."},
-                             {topic: "Solution: ", topicDes:"Keep track of the type of my music along with listening time throughout a normal week at University."},
-                             {topic: "Technologies: ", topicDes:"Infographic, Poster, Research"}]
+export class TLN extends React.Component{
+    descriptionComponents = [{topic: "Task: ", topicDes:"TLN Global Export asked me to re-create their logo. They wanted a cleaner/professional feel while mainting the previous colors and concept."},
+                             {topic: "Solution: ", topicDes:"They loved the military tag concept and my simplification of their map image. I cleaned up their custom font and maintained the same colors as requested."},
+                             {topic: "Technologies: ", topicDes:"Business Card, Logo, Rebrand"}]
     
     render() {
         const printedDescriptions = this.descriptionComponents.map( t => <DescriptionComponent {...t} />)
         var test = () => {
 
         }
-
-        return(
+        return (
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='MethodOne' tagline='Music Snapshot' /> <br />
+                <PageTitles pageTitle='TLN Global Export' tagline='Logo Re-brand' /> <br />
                 {printedDescriptions}
                 </div>
                 <div>
-                    <PageSection sectionTitle='Final' /> <br />
+                    <PageSection sectionTitle='Logo/Business Card' /> <br />
                 </div>
                 <div className="projectNoHover">
-                    <img src="./Images/Methods/musicSnapshot.png" ></img>
+                    <img src="./Images/TLN/Logo.png" ></img>
+                    <img src="./Images/TLN/BusinessCard.png" ></img>
                 </div>
-                <br />
             </div>
-        );
+        )
     }
 }
+
 
 const DescriptionComponent = (props: {
     topic: String,

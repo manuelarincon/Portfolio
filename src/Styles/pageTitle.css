@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "Header";
+    src: url("../Fonts/BebasNeue.otf") format("woff")
+  }
+
+@font-face {
+    font-family: "Body";
+    src: url("../Fonts/helvetica.otf") format("woff")
+  }
+
 .titles {
     margin-top: 10%;
+    font-family: 'Header', Fallback, Roboto; 
+    font-size: 1.5em;
 }
 
 h1 {
@@ -9,4 +21,5 @@ h1 {
 
 .tagline {
     display: inline;
+    font-family: 'Body', Fallback, Helvetica;
 }

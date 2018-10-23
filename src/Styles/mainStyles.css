@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "Header";
+    src: url("../Fonts/BebasNeue.otf") format("woff")
+  }
+
+@font-face {
+    font-family: "Body";
+    src: url("../Fonts/helvetica.otf") format("woff")
+  }
+
+  .bio {
+    font-family: "Body", Fallback, Helvetica;
+}
+
+.bio a {
+    font-style: italic;
+}
+
 .topNavigation {
     height: 5%;
     width: 100%;
@@ -87,4 +105,13 @@
 a:hover {
     text-decoration: underline;
     color: #7389AE;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.endNavigation {
+    height: 12em;
 }
