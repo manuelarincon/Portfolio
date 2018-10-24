@@ -8,12 +8,16 @@
     src: url("../Fonts/helvetica.otf") format("woff")
   }
 
-  .bio {
+.bio {
     font-family: "Body", Fallback, Helvetica;
 }
 
 .bio a {
     font-style: italic;
+}
+
+a {
+    text-decoration: none;
 }
 
 .topNavigation {
@@ -113,5 +117,36 @@ a:hover {
 }
 
 .endNavigation {
+    margin-top: 7em;
     height: 12em;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: lightgray;
+    font-family: 'Header', Fallback, Roboto; 
+}
+
+.endLinks {
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.endLinks img {
+    width: 40px;
+    height: auto;
+    padding: 3px;
+}
+
+.endIcons {
+    align-self: center;
+}
+
+.endHome {
+    color: black;
+    display: grid;
+    justify-items: right;
+}
+
+.endHome:hover {
+    color: #7389AE;
 }

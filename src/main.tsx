@@ -88,13 +88,16 @@ class Main extends React.Component
                             <Route path="/Methods" component={Methods} />
                         </div> 
                         <div className="endNavigation">
-                            <div className="">
+                            <div className="endLinks">
                              <h1>Lets connect</h1>
-                             <a href='mailto:manuela.r@utexas.edu'>
-                                <FontAwesomeIcon icon="envelope" /></a>
-                             <a href="www.linkedin.com/in/manuela-rincon-creative"><image>linked in</image></a>
-                             <a href="https://github.com/manuelarincon"><image>github</image></a>
-                             <a href="https://dribbble.com/manuelar"><image>dribble</image></a>
+                             <div className="endIcons">
+                                <a href='mailto:manuela.r@utexas.edu'><img src="./Images/socialIcons/mail.png"></img></a>
+                                <a href="www.linkedin.com/in/manuela-rincon-creative"><img src="./Images/socialIcons/linkedIn.png"></img></a>
+                                <a href="https://github.com/manuelarincon"><img src="./Images/socialIcons/gitHub.png"></img></a>
+                                <a href="https://dribbble.com/manuelar"><img src="./Images/socialIcons/dribble.png"></img></a>
+                             </div>
+                             <div></div>
+                             <Link to='/'><h1 className="endHome">Home</h1></Link>
                             </div>
                         </div>
                     
