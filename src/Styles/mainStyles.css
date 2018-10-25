@@ -88,6 +88,20 @@ a {
 }
 .copyRight {
     display: -webkit-inline-box;
+    font-family: helvetica;
+}
+
+.gitLink {
+    display: -webkit-inline-box;
+    color: white;
+    font-size: small;
+    font-family: helvetica;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.gitLink:hover {
+    color: #7389AE;
 }
 
 .projects{

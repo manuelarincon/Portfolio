@@ -23,7 +23,7 @@ const Home = () => {
     <div>
         <div className="projects">
             <PageTitles pageTitle='Manuela Rincon' tagline='Designer/Programer' /> <br/>
-                <p className="bio">Designer with front-end language skills in HTML5 & CSS. <br/>
+                <p className="bio">Designer with front-end language skills in HTML5, CSS & React. <br/>
                        Expanding on JavaScript & JQuery.<br/>
                        Check out some of my project below.<br/> 
                        <br/>
@@ -71,7 +71,7 @@ class Main extends React.Component
                 <div className ="topNavigation">
                     <div className="navbar">
                         <Link to='/'><div className="log"><FontAwesomeIcon icon="moon" /></div></Link>
-                        <div className="languages">English  <FontAwesomeIcon icon="caret-left" /></div>
+                        {/* <div className="languages">English  <FontAwesomeIcon icon="caret-left" /></div> */}
                         <div className="email"><a className="headerContentLink"href='mailto:manuela.r@utexas.edu'>
                         <FontAwesomeIcon icon="envelope" /></a></div>
                     </div>
@@ -103,7 +103,8 @@ class Main extends React.Component
                     
                 </div>
                 <div className="bottomElements">
-                    <p className="copyRight">&copy; Manuela Rincon</p>
+                    <p className="copyRight">&copy; Manuela Rincon</p> <br />
+                    <a href="https://github.com/manuelarincon/Portfolio"><p className="gitLink">View how I built this webpage using React, ReactRouter, Typescript, Webpack, CSS & HTML5</p></a>
                 </div>
             </div>
             </BrowserRouter>
