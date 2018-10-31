@@ -2,13 +2,12 @@ import * as React from 'react';
 import { Link } from "react-router-dom";
 import {PageTitles} from './Components/pageTitles';
 import {PageSection} from './Components/pageSections';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Styles/terry.css';
 
 export class TLN extends React.Component{
-    descriptionComponents = [{topic: "Task: ", topicDes:"TLN Global Export asked me to re-create their logo. They wanted a cleaner/professional feel while mainting the previous colors and concept."},
+    descriptionComponents = [{topic: "Task: ", topicDes:"TLN Global Export asked me to re-create their logo. They wanted a cleaner/professional feel while maintaining the previous colors and concept."},
                              {topic: "Solution: ", topicDes:"They loved the military tag concept and my simplification of their map image. I cleaned up their custom font and maintained the same colors as requested."},
-                             {topic: "Technologies: ", topicDes:"Business Card, Logo, Rebrand"}]
+                             {topic: "Technologies: ", topicDes:"Business Card, Logo, Rebranding"}]
     
     render() {
         const printedDescriptions = this.descriptionComponents.map( t => <DescriptionComponent {...t} />)

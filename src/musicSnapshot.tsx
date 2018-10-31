@@ -2,11 +2,10 @@ import * as React from 'react';
 import { Link } from "react-router-dom";
 import {PageTitles} from './Components/pageTitles';
 import {PageSection} from './Components/pageSections';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Styles/terry.css';
 
 export class Methods extends React.Component {
-    descriptionComponents = [{topic: "Task: ", topicDes:"Practice a research method and collect intell for a week to then visually display."},
+    descriptionComponents = [{topic: "Task: ", topicDes:"Practice a research method and collect intel for a week to then visually display."},
                              {topic: "Solution: ", topicDes:"Keep track of the type of my music along with listening time throughout a normal week at University."},
                              {topic: "Technologies: ", topicDes:"Infographic, Poster, Research"}]
     

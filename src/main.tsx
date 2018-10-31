@@ -13,7 +13,7 @@ import {John} from "./John";
 import { DD } from "./DD";
 import { Methods } from "./musicSnapshot";
 import "./Styles/mainStyles.css";
-// import PDF from "./Rincon_Resume.pdf";
+import "./Rincon_Resume.pdf";
 
 
 loadIcons();
@@ -22,14 +22,16 @@ const Home = () => {
     return (
     <div>
         <div className="projects">
-            <PageTitles pageTitle='Manuela Rincon' tagline='Designer/Programer' /> <br/>
+            <PageTitles pageTitle='Manuela Rincon' tagline='Designer/Programmer' /> <br/>
                 <p className="bio">Designer with front-end language skills in HTML5, CSS & React. <br/>
-                       Expanding on JavaScript & JQuery.<br/>
-                       Check out some of my project below.<br/> 
+                       Expanding on other frameworks such as Typescript and Angular.<br/>
+                       Check out some of my projects below.<br/> 
                        <br/>
                 <a className="bodyContentLink" href='mailto:manuela.r@utexas.edu'>Drop me a line</a> <br/>
                 <br />
-                <a className="bodyContentLink" href='./Rincon_Resume.pdf' download='Rincon_Resume.pdf'>Resume(PDF)</a>
+                <a className="bodyContentLink" href='./Rincon_Resume.pdf' download='Rincon_Resume.pdf'>Resume(PDF)</a> <br/>
+                <br />
+                <a className="bodyContentLink" href='https://github.com/manuelarincon/Portfolio' >Website Source Code</a>
                 </p> 
         </div>
         <div>
@@ -96,15 +98,14 @@ class Main extends React.Component
                                 <a href="https://github.com/manuelarincon"><img src="./Images/socialIcons/gitHub.png"></img></a>
                                 <a href="https://dribbble.com/manuelar"><img src="./Images/socialIcons/dribble.png"></img></a>
                              </div>
-                             <div></div>
                              <Link to='/'><h1 className="endHome">Home</h1></Link>
                             </div>
+                            <br />  
                         </div>
-                    
-                </div>
-                <div className="bottomElements">
+                    <div className="bottomElements">
                     <p className="copyRight">&copy; Manuela Rincon</p> <br />
                     <a href="https://github.com/manuelarincon/Portfolio"><p className="gitLink">View how I built this webpage using React, ReactRouter, Typescript, Webpack, CSS & HTML5</p></a>
+                </div>
                 </div>
             </div>
             </BrowserRouter>

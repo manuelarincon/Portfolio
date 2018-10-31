@@ -2,14 +2,13 @@ import * as React from 'react';
 import { Link } from "react-router-dom";
 import {PageTitles} from './Components/pageTitles';
 import {PageSection} from './Components/pageSections';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Styles/terry.css';
 
 export class Ergo extends React.Component {
     descriptionComponents = [{topic: "Problem Statement: ", topicDes:"Accessing healthcare information is very tedious and not everyone is technologically adept."+ 
                                      "It is also handles sensitive, personal documentation that people don’t frequently visit." },
                              {topic: "Solution: ", topicDes:"Create a secure yet simple system that houses patients’ sensitive and casual health information." + 
-                                     "With a target user demographic of an older audience, log in experience is simple. No usernames or passwords that can be forgoten," + 
+                                     "With a target user demographic of an older audience, log in experience is simple. No usernames or passwords that can be forgotten," + 
                                      "using a biometric identification and IP address location to determine secure lines. "},
                              {topic: "Technologies: ", topicDes:"Wire Framing, UI, UX"},
                              {topic: "Team Members: ", topicDes:"Esther Amaku, Kathleen De La Llata, Jessica Lin and Manuela Rincon"}]
