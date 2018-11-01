@@ -4,7 +4,7 @@
     "description": "Setup a front-end developer environment",
     "scripts": {
         "start": "webpack-dev-server --mode development",
-        "compile": "webpack --env.production"
+        "compile": "webpack --mode production"
     },
     "author": "Diego Rincon",
     "license": "ISC",
