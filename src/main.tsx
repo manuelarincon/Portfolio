@@ -12,6 +12,7 @@ import { Ergo } from "./ergo";
 import {John} from "./John";
 import { DD } from "./DD";
 import { Methods } from "./musicSnapshot";
+import {MessageForm} from "./messageForm";
 import "./Styles/mainStyles.css";
 import "./Rincon_Resume.pdf";
 
@@ -27,7 +28,7 @@ const Home = () => {
                        Expanding on other frameworks such as Typescript and Angular.<br/>
                        Check out some of my projects below.<br/> 
                        <br/>
-                <a className="bodyContentLink" href='mailto:manuela.r@utexas.edu'>Drop me a line</a> <br/>
+                <Link to="/MessageForm" ><a className="bodyContentLink"> Drop me a line</a> </Link> <br/>
                 <br />
                 <a className="bodyContentLink" href='./Rincon_Resume.pdf' download='Rincon_Resume.pdf'>Resume(PDF)</a> <br/>
                 <br />
@@ -74,8 +75,8 @@ class Main extends React.Component
                     <div className="navbar">
                         <Link to='/'><div className="log"><FontAwesomeIcon icon="moon" /></div></Link>
                         {/* <div className="languages">English  <FontAwesomeIcon icon="caret-left" /></div> */}
-                        <div className="email"><a className="headerContentLink"href='mailto:manuela.r@utexas.edu'>
-                        <FontAwesomeIcon icon="envelope" /></a></div>
+                        <div className="email"><Link className="headerContentLink" to='/MessageForm'>
+                        <FontAwesomeIcon icon="envelope" /></Link></div>
                     </div>
                 </div>
                 <div className="mainContent"> 
@@ -88,12 +89,13 @@ class Main extends React.Component
                             <Route path="/John" component={John} />
                             <Route path="/DD" component={DD} />
                             <Route path="/Methods" component={Methods} />
+                            <Route path="/MessageForm" component={MessageForm} />
                         </div> 
                         <div className="endNavigation">
                             <div className="endLinks">
                              <h1>Lets connect</h1>
                              <div className="endIcons">
-                                <a href='mailto:manuela.r@utexas.edu'><img src="./Images/socialIcons/mail.png"></img></a>
+                                <Link to='/MessageForm'><img src="./Images/socialIcons/mail.png"></img></Link>
                                 <a href="www.linkedin.com/in/manuela-rincon-creative"><img src="./Images/socialIcons/linkedIn.png"></img></a>
                                 <a href="https://github.com/manuelarincon"><img src="./Images/socialIcons/gitHub.png"></img></a>
                                 <a href="https://dribbble.com/manuelar"><img src="./Images/socialIcons/dribble.png"></img></a>
