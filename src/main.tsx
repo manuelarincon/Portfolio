@@ -13,6 +13,7 @@ import {John} from "./John";
 import { DD } from "./DD";
 import { Methods } from "./musicSnapshot";
 import {MessageForm} from "./messageForm";
+import {Chardonnay} from "./Chardonnay";
 import "./Styles/mainStyles.css";
 import "./Rincon_Resume.pdf";
 
@@ -47,17 +48,20 @@ const Home = () => {
                     <Thumbnail internalLink ="/TLN" image = "../Images/TLNThum.png" title = "TLN" description = "Weighing Automation Systems company rebrand" technologies = "Business Card | Logo | Rebrand"/>
                 </div>
                 <div className="project3">
-                    <Thumbnail internalLink ="/Ergo" image = "../Images/ErgoThum.png" title = "Ergo Health" description = "Log in screen concept for UT Medical Center." technologies = "Wire Framing | UI | UX | Team"/>
+                    <Thumbnail internalLink="/Chardonnay" image="../Images/CharThum.png" title="Chardonnay" description="Local hair salon in Monterey, California" technologies="UI | Web | Font | Logo" />
                 </div>
                 <div className="project4">
-                    <Thumbnail internalLink ="/John" image = "../Images/JohnThum.png" title = "John" description = "Personal trainer app" technologies = "Wire Framing | UX"/>
+                    <Thumbnail internalLink ="/Ergo" image = "../Images/ErgoThum.png" title = "Ergo Health" description = "Log in screen concept for UT Medical Center" technologies = "Wire Framing | UI | UX | Team"/>
                 </div>
                 <div className="project5">
-                    <Thumbnail internalLink ="/DD" image = "../Images/DDThum.png" title = "DD" description = "Watch with built in breathalyzer in attempts to prevent drunk driving and educate. Concept." technologies = "Wire Framing | UI | UX"/>
+                    <Thumbnail internalLink ="/John" image = "../Images/JohnThum.png" title = "John" description = "Personal trainer app" technologies = "Wire Framing | UX"/>
                 </div>
                 <div className="project6">
-                    <Thumbnail internalLink ="/Methods" image = "../Images/methodsThum.png" title = "Music Snapshot" description = "Personal project focused on music listening habbits" technologies = "Research | Poster "/>
+                    <Thumbnail internalLink ="/Methods" image = "../Images/methodsThum.png" title = "Music Snapshot" description = "Personal project focused on music listening habits" technologies = "Research | Poster "/>
                 </div>
+                {/* <div className="project7">
+                    <Thumbnail internalLink ="/DD" image = "../Images/DDThum.png" title = "DD" description = "Watch with built in breathalyzer" technologies = "Wire Framing | UI | UX"/>
+                </div> */}
             </div>
         </div>
     </div> 
@@ -90,6 +94,7 @@ class Main extends React.Component
                             <Route path="/DD" component={DD} />
                             <Route path="/Methods" component={Methods} />
                             <Route path="/MessageForm" component={MessageForm} />
+                            <Route path="/Chardonnay" component={Chardonnay} />
                         </div> 
                         <div className="endNavigation">
                             <div className="endLinks">

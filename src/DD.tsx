@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from "react-router-dom";
 import {PageTitles} from './Components/pageTitles';
 import {PageSection} from './Components/pageSections';
-import './Styles/terry.css';
+import './Styles/project.css';
 
 
 export class DD extends React.Component {

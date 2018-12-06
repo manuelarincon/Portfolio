@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from "react-router-dom";
 import {PageTitles} from './Components/pageTitles';
 import {PageSection} from './Components/pageSections';
-import './Styles/terry.css';
+import './Styles/project.css';
 
 export class Terry extends React.Component {
     descriptionComponents = [{topic: "Problem: ", topicDes:"Visitors where having trouble finding the entrance with no exterior signage. Thirteen23, with its prime location"+

@@ -2,11 +2,11 @@ import * as React from 'react';
 import { Link } from "react-router-dom";
 import {PageTitles} from './Components/pageTitles';
 import {PageSection} from './Components/pageSections';
-import './Styles/terry.css';
+import './Styles/project.css';
 
 export class TLN extends React.Component{
-    descriptionComponents = [{topic: "Task: ", topicDes:"TLN Global Export asked me to re-create their logo. They wanted a cleaner/professional feel while maintaining the previous colors and concept."},
-                             {topic: "Solution: ", topicDes:"They loved the military tag concept and my simplification of their map image. I cleaned up their custom font and maintained the same colors as requested."},
+    descriptionComponents = [{topic: "Client Project: ", topicDes:"TLN Global Export asked me to re-create their logo. They wanted a cleaner/professional feel while maintaining the previous colors and concept."},
+                             {topic: "Outcome: ", topicDes:"They loved the military tag concept and my simplification of their map image. I cleaned up their custom font and maintained the same colors as requested."},
                              {topic: "Technologies: ", topicDes:"Business Card, Logo, Rebranding"}]
     
     render() {
