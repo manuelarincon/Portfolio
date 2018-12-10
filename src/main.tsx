@@ -25,7 +25,7 @@ const Home = () => {
     <div>
         <div className="projects">
             <PageTitles pageTitle='Manuela Rincon' tagline='Designer/Programmer' /> <br/>
-                <p className="bio">Designer with front-end language skills in HTML5, CSS & React. <br/>
+            <p className="bio">Designer with front-end language skills in HTML5, CSS & React. <br/>
                        Expanding on other frameworks such as Typescript and Angular.<br/>
                        Check out some of my projects below.<br/> 
                        <br/>
@@ -34,7 +34,7 @@ const Home = () => {
                 <a className="bodyContentLink" href='./Rincon_Resume.pdf' download='Rincon_Resume.pdf'>Resume(PDF)</a> <br/>
                 <br />
                 <a className="bodyContentLink" href='https://github.com/manuelarincon/Portfolio' >Website Source Code</a>
-                </p> 
+            </p> 
         </div>
         <div>
             <PageSection sectionTitle='Projects' /> <br />
@@ -42,7 +42,7 @@ const Home = () => {
         <div className="projects">
             <div className="grid">
                 <div className="project1">
-                    <Thumbnail internalLink ="/Terry" image = "../Images/1323Thum.png" title = "Terry" description = "Building Exterior + Wayfinding" technologies = "Presentation | Wayfinding | Team | Mockups"/>
+                    <Thumbnail internalLink ="/Terry" image = "../Images/1323Thum2.png" title = "Terry" description = "Building Exterior + Wayfinding" technologies = "Presentation | Wayfinding | Team | Mockups"/>
                 </div>
                 <div className="project2">
                     <Thumbnail internalLink ="/TLN" image = "../Images/TLNThum.png" title = "TLN" description = "Weighing Automation Systems company rebrand" technologies = "Business Card | Logo | Rebrand"/>
@@ -51,10 +51,10 @@ const Home = () => {
                     <Thumbnail internalLink="/Chardonnay" image="../Images/CharThum.png" title="Chardonnay" description="Local hair salon in Monterey, California" technologies="UI | Web | Font | Logo" />
                 </div>
                 <div className="project4">
-                    <Thumbnail internalLink ="/Ergo" image = "../Images/ErgoThum.png" title = "Ergo Health" description = "Log in screen concept for UT Medical Center" technologies = "Wire Framing | UI | UX | Team"/>
+                    <Thumbnail internalLink ="/Ergo" image = "../Images/ErgoThum2.png" title = "Ergo Health" description = "Log in screen concept for UT Medical Center" technologies = "Wire Framing | UI | UX | Team"/>
                 </div>
                 <div className="project5">
-                    <Thumbnail internalLink ="/John" image = "../Images/JohnThum.png" title = "John" description = "Personal trainer app" technologies = "Wire Framing | UX"/>
+                    <Thumbnail internalLink ="/John" image = "../Images/JohnThum2.png" title = "John" description = "Personal trainer app" technologies = "Wire Framing | UX"/>
                 </div>
                 <div className="project6">
                     <Thumbnail internalLink ="/Methods" image = "../Images/methodsThum.png" title = "Music Snapshot" description = "Personal project focused on music listening habits" technologies = "Research | Poster "/>
