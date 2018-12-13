@@ -14,6 +14,7 @@ import { DD } from "./DD";
 import { Methods } from "./musicSnapshot";
 import {MessageForm} from "./messageForm";
 import {Chardonnay} from "./Chardonnay";
+import {FreshAir} from "./FreshAir";
 import "./Styles/mainStyles.css";
 import "./Rincon_Resume.pdf";
 
@@ -59,9 +60,12 @@ const Home = () => {
                 <div className="project6">
                     <Thumbnail internalLink ="/Methods" image = "../Images/methodsThum.png" title = "Music Snapshot" description = "Personal project focused on music listening habits" technologies = "Research | Poster "/>
                 </div>
-                {/* <div className="project7">
+                <div className="project7">
                     <Thumbnail internalLink ="/DD" image = "../Images/DDThum.png" title = "DD" description = "Watch with built in breathalyzer" technologies = "Wire Framing | UI | UX"/>
-                </div> */}
+                </div>
+                <div className="project8">
+                    <Thumbnail internalLink ="/FreshAir" image = "../Images/freshThum.png" title = "FreshAir" description = "Air-filter replacement service" technologies = "Wire Framing | UI | UX"/>
+                </div>
             </div>
         </div>
     </div> 
@@ -95,6 +99,7 @@ class Main extends React.Component
                             <Route path="/Methods" component={Methods} />
                             <Route path="/MessageForm" component={MessageForm} />
                             <Route path="/Chardonnay" component={Chardonnay} />
+                            <Route path="/FreshAir" component={FreshAir} />
                         </div> 
                         <div className="endNavigation">
                             <div className="endLinks">
