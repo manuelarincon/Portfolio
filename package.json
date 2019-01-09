@@ -1,12 +1,12 @@
 {
-    "name": "front-end-training",
+    "name": "manuela-portfolio",
     "version": "1.0.0",
     "description": "Setup a front-end developer environment",
     "scripts": {
         "start": "webpack-dev-server --mode development",
         "compile": "webpack --mode production"
     },
-    "author": "Diego Rincon",
+    "author": "Manuela Rincon",
     "license": "ISC",
     "devDependencies": {
         "@types/react": "^16.4.6",
