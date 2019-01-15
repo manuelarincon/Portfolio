@@ -17,6 +17,7 @@ import {Chardonnay} from "./Chardonnay";
 import {FreshAir} from "./FreshAir";
 import "./Styles/mainStyles.css";
 import "./Rincon_Resume.pdf";
+import { PureHeroine } from "./lordeAlbum";
 
 
 loadIcons();
@@ -42,6 +43,9 @@ const Home = () => {
         </div>
         <div className="projects">
             <div className="grid">
+                <div className="project9">
+                    <Thumbnail internalLink ="/PureHeroine" image = "../Images/CoverAlbumLorde.png" title = "Pure Heroine" description = "Album Cover Remake" technologies = "Photography | Layout | Illustrator"/>
+                </div>
                 <div className="project1">
                     <Thumbnail internalLink ="/Terry" image = "../Images/1323Thum2.png" title = "Terry" description = "Building Exterior + Wayfinding" technologies = "Presentation | Wayfinding | Team | Mockups"/>
                 </div>
@@ -100,6 +104,7 @@ class Main extends React.Component
                             <Route path="/MessageForm" component={MessageForm} />
                             <Route path="/Chardonnay" component={Chardonnay} />
                             <Route path="/FreshAir" component={FreshAir} />
+                            <Route path="/PureHeroine" component={PureHeroine} />
                         </div> 
                         <div className="endNavigation">
                             <div className="endLinks">
