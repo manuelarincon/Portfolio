@@ -22,58 +22,76 @@ a {
 }
 
 .topNavigation {
-    height: 5%;
+    height: 10%;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    padding-right: 3%;
+    padding-left: 3%;
     background-color: black;
     color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+    grid-template-rows: 100%;
 }
 
 .log {
-    float: left;
-    padding-left: 2.5%;
-    padding-top: .3%;
+    padding-left: 8%;
     color: white; 
 }
 
+.log p {
+    font-size: xx-large;
+    font-family: 'Header';
+    margin: 0;
+    display: inline;
+}
+
 .log:hover {
-    color: #7389AE;
+    color: #0CF01B;
 }
 
 .log:visited {
     color: rosybrown;
 }
 
-.email {
-    float: right;
-    padding-right: 1%;
-    padding-top: .3%;
-    color: white;   
+.primaryNav {
+    height: 100%;
+    width: 97%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
-.languages{
-    float: right;
-    padding-right: 4%;
-    padding-top: .3%;
+.primaryNav a {
+    color: white;
+    font-family: 'Header';
+    font-size: large;
+    align-self: center;
+}
+
+.primaryNav p {
+    margin: 0;
+     display: inline;
+     font-family: 'Header';
+     font-size: x-large;
+}
+
+.mainLinks {
+    text-align: -webkit-center;
+    align-self: center;
 }
 
 .navbar {
-    position: inline;
-    padding-top: .7%;
+    align-self: center;
 }
 
-
-.email:hover {
-    color: #7389AE;
-}
-.languages:hover {
-    color: #7389AE;
-}
+.topSpace {
+    height: 5em;
+  }
 
 .mainContent {
-    margin-top: 1%; /* Add a top margin to avoid content overlay */
+    /* padding-top: 9%; Add a top margin to avoid content overlay */
     height: 100vh;
 }
 
@@ -98,12 +116,13 @@ a {
 }
 
 .gitLink:hover {
-    color: #7389AE;
+    color: #0CF01B;
 }
 
 .projects{
     padding-left: 7%;
     padding-right: 7%;
+    padding-bottom: 7em;
     overflow: hidden;
 }
 
@@ -119,7 +138,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #7389AE;
+    color: #0CF01B;
 }
 
 .grid {
@@ -128,7 +147,6 @@ a:hover {
 }
 
 .endNavigation {
-    margin-top: 7em;
     padding-left: 7%;
     padding-right: 7%;
     background-color: lightgray;

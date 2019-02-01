@@ -28,7 +28,7 @@ export class John extends React.Component{
                 <div className="projectNoHover">
                     <img src="./Images/John/wireframes.png" />
                 </div>
-                <br />
+                <div className="bottomSpace"></div>
             </div>
         )
     }

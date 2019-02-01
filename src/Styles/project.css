@@ -1,3 +1,11 @@
+.bottomSpace {
+  height: 7em;
+}
+
+.topSpace {
+  height: 5em;
+}
+
 .projectNoHover {
     margin-left: 7%;
     margin-right: 7%;
@@ -31,7 +39,7 @@
     clear: both;
   }
   
-  /* Create two equal columns that floats next to eachother */
+  /* Create two equal columns that floats next to each other */
   .column {
     float: left;
     width: 47%;

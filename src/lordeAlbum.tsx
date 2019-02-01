@@ -6,7 +6,7 @@ import './Styles/project.css';
 
 export class PureHeroine extends React.Component{
     descriptionComponents = [{topic: "Album Remake: ", topicDes:"I found Lorde's Pure Heroine album cover very simple and a bit bland to the amount of the emotion and drama presented in the music."},
-                             {topic: "Solution: ", topicDes:"I wanted the album cover to portray the energy of the music while maintaining some simplicity and mystery from the original cover." +
+                             {topic: "Solution: ", topicDes:"I wanted the album cover to portray the energy of the music while maintaining some simplicity and mystery from the original cover. " +
                                                             "With the assistance of Neftaly Torrez I captured the two stunning images of the mannequin as the 'beauty queen'. "},
                              {topic: "Technologies: ", topicDes:"Photography, Layout, Illustrator"}]
     
@@ -22,14 +22,14 @@ export class PureHeroine extends React.Component{
                 {printedDescriptions}
                 </div>
                 <div>
-                    <PageSection sectionTitle='Final Mockups with inside sleeve' /> <br />
+                    <PageSection sectionTitle='Mockups w/inside sleeve' /> <br />
                 </div>
                 <div className="projectNoHover">
                     <img src="./Images/CoverAlbum/Cover+Vinyl.png" />
                     <img src="./Images/CoverAlbum/insideSleeve.png" />
                     <img src="./Images/CoverAlbum/back+front.png" />
                 </div>
-                <br />
+                <div className="bottomSpace"></div>
             </div>
         )
     }

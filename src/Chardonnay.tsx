@@ -41,6 +41,7 @@ export class Chardonnay extends React.Component {
                     <img src="./Images/Chardonnay/logo.png" ></img>
                     <a href="http://chardonnay-hair.com" target="_blank"><img src="./Images/Chardonnay/webFinal1.png" ></img></a>
                 </div>
+                <div className="bottomSpace"></div>
             </div>
         )
     }

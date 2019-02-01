@@ -48,6 +48,7 @@ export class Terry extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className="bottomSpace"></div>
             </div>
         );
     }

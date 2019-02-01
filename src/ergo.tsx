@@ -49,8 +49,7 @@ export class Ergo extends React.Component {
                     <div className="multipleImages">
                         <img src="./Images/Ergo/ergoScreen1.png" ></img>
                     </div>
-                    <br/>
-                    <br/>
+                    <div className="bottomSpace"></div>
                 </div>
             </div>
         );

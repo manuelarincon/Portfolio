@@ -44,6 +44,7 @@ export class FreshAir extends React.Component {
                 <div className="projectNoHover">
                     <img src="./Images/FreshAir/UI-01.png" ></img>
                 </div>
+                <div className="bottomSpace"></div>
             </div>
         )
     }

@@ -27,6 +27,7 @@ export class TLN extends React.Component{
                     <img src="./Images/TLN/Logo.png" ></img>
                     <img src="./Images/TLN/BusinessCard.png" ></img>
                 </div>
+                <div className="bottomSpace"></div>
             </div>
         )
     }

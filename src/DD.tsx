@@ -28,6 +28,7 @@ export class DD extends React.Component {
                 <div className="projectNoHover">
                     <img src="./Images/DD/FinalScreens.png" ></img>
                 </div>
+                <div className="bottomSpace"></div>
             </div>
         );
     }

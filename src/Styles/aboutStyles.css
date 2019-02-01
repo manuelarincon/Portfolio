@@ -1,0 +1,26 @@
+.content {
+    margin-left: 7%;
+    margin-right: 7%;
+    overflow: hidden;
+}
+
+.content p {
+    font-size: medium;
+    font-style: "helvetica";
+}
+
+.pageColor {
+    background-color: #FEFE3B;
+    padding-bottom: 7em;
+    padding-top:3em;
+}
+
+p a {
+    font-weight: bold;
+    color: black;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: grey;
+}

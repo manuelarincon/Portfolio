@@ -27,7 +27,7 @@ export class Methods extends React.Component {
                 <div className="projectNoHover">
                     <img src="./Images/Methods/musicSnapshot.png" ></img>
                 </div>
-                <br />
+                <div className="bottomSpace"></div>
             </div>
         );
     }
