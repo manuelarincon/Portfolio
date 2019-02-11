@@ -18,6 +18,7 @@ import {Chardonnay} from "./Chardonnay";
 import {FreshAir} from "./FreshAir";
 import {Spark} from "./Spark";
 import {UTAOFA} from "./UTAOFA";
+import {LG} from "./LG";
 import "./Styles/mainStyles.css";
 import "./Rincon_Resume.pdf";
 import { PureHeroine } from "./lordeAlbum";
@@ -79,6 +80,9 @@ const Home = () => {
                 <div className="project10">
                     <Thumbnail internalLink ="/UTAOFA" image = "../Images/UTAOFAThum.png" title = "UTAOFA" description = "Poster for the School of Architecture" technologies = "Poster | Typography | Graphics"/>
                 </div>
+                <div className="project11">
+                    <Thumbnail internalLink ="/LGEventPro" image = "../Images/LGThum.png" title = "LG Event Pro" description = "Website re-make" technologies = "Layout | Web | SquareSpace"/>
+                </div>
             </div>
         </div>
     </div> 
@@ -123,6 +127,7 @@ class Main extends React.Component
                             <Route path="/PureHeroine" component={PureHeroine} />
                             <Route path="/Spark" component={Spark} />
                             <Route path="/UTAOFA" component={UTAOFA} />
+                            <Route path="/LGEventPro" component={LG} />
                         </div> 
                         <div className="endNavigation">
                             <div className="endLinks">
