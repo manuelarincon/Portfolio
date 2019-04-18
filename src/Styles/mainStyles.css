@@ -36,24 +36,24 @@ a {
     grid-template-rows: 100%;
 }
 
-.log {
-    padding-left: 8%;
-    color: white; 
+#log {
+    padding-left: 8%; 
 }
 
-.log p {
-    font-size: xx-large;
-    font-family: 'Header';
-    margin: 0;
-    display: inline;
+#log img {
+    width: 50px;
 }
 
-.log:hover {
-    color: #0CF01B;
+#log span[id='yesHover'] {
+    display: none;
 }
 
-.log:visited {
-    color: rosybrown;
+#log:Hover span[id='noHover']{
+    display: none;
+}
+
+#log:Hover span[id='yesHover']{
+    width: 50px;
 }
 
 .primaryNav {

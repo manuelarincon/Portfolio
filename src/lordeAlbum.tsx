@@ -7,7 +7,7 @@ import './Styles/project.css';
 export class PureHeroine extends React.Component{
     descriptionComponents = [{topic: "Album Remake: ", topicDes:"I found Lorde's Pure Heroine album cover very simple and a bit bland to the amount of the emotion and drama presented in the music."},
                              {topic: "Solution: ", topicDes:"I wanted the album cover to portray the energy of the music while maintaining some simplicity and mystery from the original cover. " +
-                                                            "With the assistance of Neftaly Torrez I captured the two stunning images of the mannequin as the 'beauty queen'. "},
+                                                            "With the assistance of <a href='www.google.com'>Neftaly Torrez</a> I captured the two stunning images of the mannequin as the 'beauty queen'. "},
                              {topic: "Technologies: ", topicDes:"Photography, Layout, Illustrator"}]
     
     render() {
@@ -35,14 +35,25 @@ export class PureHeroine extends React.Component{
     }
 }
 
+
 const DescriptionComponent = (props: {
     topic: String,
     topicDes: String
 }) => {
 
+    let description = props.topicDes;
+    let linkSartPosition = 3;
+    let frontPart = "starting";
+    let endPart = "final";
+    let linkString = "somelinkhere";
+    let anchorString = "Manuela Rincon"
+
+    let anchorTag = <a href="${linkString}">anchorString</a>
+    let topicDescription = <span>frontPart<span>{anchorTag}</span>endPart</span>
+
     return (
         <div>
-            <p><b>{props.topic}</b>{props.topicDes}</p>
+            <p><b>{props.topic}</b>{topicDescription}</p>
         </div>
     )
 }

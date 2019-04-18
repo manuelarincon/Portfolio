@@ -1,10 +1,13 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import { useState } from 'react';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { loadIcons } from './Images/icons';
 import {PageTitles} from './Components/pageTitles';
 import {PageSection} from './Components/pageSections';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import logo from "./Images/MR/LogoWT.png";
+import logoHover from "./Images/MR/LogoBU.png";
 import { Thumbnail } from "./Components/Thumbnail";
 import {Me} from "./about";
 import { Terry } from "./terry";
@@ -89,68 +92,80 @@ const Home = () => {
     )
 }
 
-class Main extends React.Component
+const ImageComponent = (props:{ regularImg: any, hoverImg: any }) => {
+    const [logo, changeLogo] = useState(props.regularImg)
+
+    const updateLogo = (newLogo:any) => {
+        changeLogo(newLogo);
+    }
+
+    return (
+        <div id="log">
+            <img onMouseEnter={() => updateLogo(props.hoverImg)} onMouseLeave={() => updateLogo(props.regularImg)} src={logo}></img>
+        </div>
+    );
+}
+
+const Main = () => 
 {
-    render()
-    {
-        return (
-             <BrowserRouter>  
-            <div>
-                <div className ="topNavigation">
-                    <div className="navbar">
-                        <Link to='/'><div className="log"><FontAwesomeIcon icon="moon" /><p>Manuela Rincon</p></div></Link>
-                    </div>
-                    <div></div>
-                    <div className="primaryNav">
-                        <div className="mainLinks">
-                            <Link className="headerContentLink" to='/about'><p> Me </p></Link>
-                            <Link className="headerContentLink" to='/'><p> Work </p></Link>
-                            <Link className="headerContentLink" to='/MessageForm'><p> Say Hello </p></Link>
-                        </div>
-                            <a href='./Rincon_Resume.pdf' download='Rincon_Resume.pdf'> Resume </a>
-                    </div>
+
+    return (
+            <BrowserRouter>  
+        <div>
+            <div className ="topNavigation">
+                <div className="navbar">
+                    <Link to='/'><ImageComponent hoverImg={logoHover} regularImg={logo} /></Link>
                 </div>
-                <div className="mainContent"> 
-                     <div className="topSpace"></div>
-                        <div>
-                            <Route path="/" exact component={Home} />
-                            <Route path="/about" component={Me} />
-                            <Route path="/Terry" component={Terry} />
-                            <Route path="/TLN" component={TLN} />
-                            <Route path="/Ergo" component={Ergo} />
-                            <Route path="/John" component={John} />
-                            <Route path="/DD" component={DD} />
-                            <Route path="/Methods" component={Methods} />
-                            <Route path="/MessageForm" component={MessageForm} />
-                            <Route path="/Chardonnay" component={Chardonnay} />
-                            <Route path="/FreshAir" component={FreshAir} />
-                            <Route path="/PureHeroine" component={PureHeroine} />
-                            <Route path="/Spark" component={Spark} />
-                            <Route path="/UTAOFA" component={UTAOFA} />
-                            <Route path="/LGEventPro" component={LG} />
-                        </div> 
-                        <div className="endNavigation">
-                            <div className="endLinks">
-                             <h1>Lets connect</h1>
-                             <div className="endIcons">
-                                <Link to='/MessageForm'><img src="./Images/socialIcons/mail.png"></img></Link>
-                                <a href="www.linkedin.com/in/manuela-rincon-creative"><img src="./Images/socialIcons/linkedIn.png"></img></a>
-                                <a href="https://github.com/manuelarincon"><img src="./Images/socialIcons/gitHub.png"></img></a>
-                                <a href="https://dribbble.com/manuelar"><img src="./Images/socialIcons/dribble.png"></img></a>
-                             </div>
-                             <Link to='/'><h1 className="endHome">Home</h1></Link>
-                            </div>
-                            <br />  
-                        </div>
-                    <div className="bottomElements">
-                    <p className="copyRight">&copy; Manuela Rincon</p> <br />
-                    <a href="https://github.com/manuelarincon/Portfolio"><p className="gitLink">View how I built this webpage using React, ReactRouter, Typescript, Webpack, CSS & HTML5</p></a>
-                </div>
+                <div></div>
+                <div className="primaryNav">
+                    <div className="mainLinks">
+                        <Link className="headerContentLink" to='/about'><p> Me </p></Link>
+                        <Link className="headerContentLink" to='/'><p> Work </p></Link>
+                        <Link className="headerContentLink" to='/MessageForm'><p> Say Hello </p></Link>
+                    </div>
+                        <a href='./Rincon_Resume.pdf' download='Rincon_Resume.pdf'> Resume </a>
                 </div>
             </div>
-            </BrowserRouter>
-        );
-    }
+            <div className="mainContent"> 
+                    <div className="topSpace"></div>
+                    <div>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/about" component={Me} />
+                        <Route path="/Terry" component={Terry} />
+                        <Route path="/TLN" component={TLN} />
+                        <Route path="/Ergo" component={Ergo} />
+                        <Route path="/John" component={John} />
+                        <Route path="/DD" component={DD} />
+                        <Route path="/Methods" component={Methods} />
+                        <Route path="/MessageForm" component={MessageForm} />
+                        <Route path="/Chardonnay" component={Chardonnay} />
+                        <Route path="/FreshAir" component={FreshAir} />
+                        <Route path="/PureHeroine" component={PureHeroine} />
+                        <Route path="/Spark" component={Spark} />
+                        <Route path="/UTAOFA" component={UTAOFA} />
+                        <Route path="/LGEventPro" component={LG} />
+                    </div> 
+                    <div className="endNavigation">
+                        <div className="endLinks">
+                            <h1>Lets connect</h1>
+                            <div className="endIcons">
+                            <Link to='/MessageForm'><img src="./Images/socialIcons/mail.png"></img></Link>
+                            <a href="www.linkedin.com/in/manuela-rincon-creative"><img src="./Images/socialIcons/linkedIn.png"></img></a>
+                            <a href="https://github.com/manuelarincon"><img src="./Images/socialIcons/gitHub.png"></img></a>
+                            <a href="https://dribbble.com/manuelar"><img src="./Images/socialIcons/dribble.png"></img></a>
+                            </div>
+                            <Link to='/'><h1 className="endHome">Home</h1></Link>
+                        </div>
+                        <br />  
+                    </div>
+                <div className="bottomElements">
+                <p className="copyRight">&copy; Manuela Rincon</p> <br />
+                <a href="https://github.com/manuelarincon/Portfolio"><p className="gitLink">View how I built this webpage using React, ReactRouter, Typescript, Webpack, CSS & HTML5</p></a>
+            </div>
+            </div>
+        </div>
+        </BrowserRouter>
+    );
 }
 
 ReactDOM.render(
