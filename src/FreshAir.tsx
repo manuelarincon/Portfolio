@@ -36,13 +36,15 @@ export class FreshAir extends React.Component {
                     <PageSection sectionTitle='WireFrames/UX' /> <br />
                 </div>
                 <div className="projectNoHover">
-                    <img src="./Images/FreshAir/UX-01.png" ></img>
+                    <img src="./Images/FreshAir/PhoneUX2.png" ></img>
+                    <img src="./Images/FreshAir/iMacUX.png" ></img>
                 </div>
                 <div>
                     <PageSection sectionTitle='UI' /> <br />
                 </div>
                 <div className="projectNoHover">
-                    <img src="./Images/FreshAir/UI-01.png" ></img>
+                    <img src="./Images/FreshAir/PhoneUI.png" ></img>
+                    <img src="./Images/FreshAir/iMacUI.png" ></img>
                 </div>
                 <div className="bottomSpace"></div>
             </div>

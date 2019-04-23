@@ -44,6 +44,10 @@ a {
     width: 50px;
 }
 
+#log img:hover {
+    box-shadow: none;
+}
+
 #log span[id='yesHover'] {
     display: none;
 }
