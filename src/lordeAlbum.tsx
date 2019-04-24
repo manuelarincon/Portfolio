@@ -22,7 +22,7 @@ export class PureHeroine extends React.Component{
                 {printedDescriptions}
                 </div>
                 <div>
-                    <PageSection sectionTitle='Mockups w/inside sleeve' /> <br />
+                    <PageSection sectionTitle='Mockups' /> <br />
                 </div>
                 <div className="projectNoHover">
                     <img src="./Images/CoverAlbum/Cover+Vinyl.png" />
@@ -41,19 +41,19 @@ const DescriptionComponent = (props: {
     topicDes: String
 }) => {
 
-    let description = props.topicDes;
-    let linkSartPosition = 3;
-    let frontPart = "starting";
-    let endPart = "final";
-    let linkString = "somelinkhere";
-    let anchorString = "Manuela Rincon"
+    // let description = props.topicDes;
+    // let linkSartPosition = 3;
+    // let frontPart = "starting";
+    // let endPart = "final";
+    // let linkString = "somelinkhere";
+    // let anchorString = "Manuela Rincon"
 
-    let anchorTag = <a href="${linkString}">anchorString</a>
-    let topicDescription = <span>frontPart<span>{anchorTag}</span>endPart</span>
+    // let anchorTag = <a href="${linkString}">anchorString</a>
+    // let topicDescription = <span>frontPart<span>{anchorTag}</span>endPart</span>
 
     return (
         <div>
-            <p><b>{props.topic}</b>{topicDescription}</p>
+            <p><b>{props.topic}</b>{props.topicDes}</p>
         </div>
     )
 }

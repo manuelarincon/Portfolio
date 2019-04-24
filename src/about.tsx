@@ -7,8 +7,7 @@ export class Me extends React.Component {
     render() {
         return (
             <div className="pageColor">
-                <PageSection sectionTitle='Hello!' /> <br />
-
+            <div className="topSpaceAbout"></div>
                 <div className="content">
                     <p>
                     My name is Manuela and I am a designer with front-end language skills. <br />

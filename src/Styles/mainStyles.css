@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Header";
-    src: url("../Fonts/BebasNeue.otf") format("woff")
+    src: url("../Fonts/Lato.otf") format("woff")
   }
 
 @font-face {
     font-family: "Body";
-    src: url("../Fonts/helvetica.otf") format("woff")
+    src: url("../Fonts/LatoRegular.otf") format("woff")
   }
 
 .bio {
@@ -91,7 +91,7 @@ a {
 }
 
 .topSpace {
-    height: 5em;
+    height: 10em;
   }
 
 .mainContent {

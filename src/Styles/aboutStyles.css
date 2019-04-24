@@ -10,9 +10,13 @@
 }
 
 .pageColor {
-    background-color: #FEFE3B;
+    background-color: yellow;
     padding-bottom: 7em;
     padding-top:3em;
+}
+
+.topSpaceAbout {
+    height: 7em;
 }
 
 p a {

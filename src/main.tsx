@@ -45,9 +45,10 @@ const Home = () => {
                 <a className="bodyContentLink" href='https://github.com/manuelarincon/Portfolio' >Website Source Code</a>
             </p> 
         </div> */}
-        <div>
+        {/* <div>
             <PageSection sectionTitle='Projects' /> <br />
-        </div>
+        </div> */}
+        <div className="topSpace"></div>
         <div className="projects">
             <div className="grid">
                 <div className="project9">
@@ -127,7 +128,6 @@ const Main = () =>
                 </div>
             </div>
             <div className="mainContent"> 
-                    <div className="topSpace"></div>
                     <div>
                         <Route path="/" exact component={Home} />
                         <Route path="/about" component={Me} />
