@@ -22,7 +22,7 @@ a {
 }
 
 .topNavigation {
-    height: 10%;
+    height: 7%;
     width: 100%;
     position: fixed;
     top: 0;
@@ -34,14 +34,15 @@ a {
     display: grid;
     grid-template-columns: 2fr 1fr 4fr;
     grid-template-rows: 100%;
-
-    @media only screen and (min-wdth: 768px){
-
 }
 
+@media only screen and (min-width: 768px){
+    /* For everything bigger than 768px */
+    .topNavigation {
+        height: 10%;
+        grid-template-columns: 2fr 1fr 4fr;
+    }
 }
-
-
 
 #log {
     padding-left: 8%; 
@@ -190,5 +191,5 @@ a:hover {
 }
 
 .endHome:hover {
-    color: #7389AE;
+    color: #0CF01B;
 }
