@@ -25,6 +25,7 @@
     background: none;
     font-family: 'body';
     font-size: small;
+    color: ghostwhite;
 }
 
 .form input::placeholder {
@@ -41,6 +42,7 @@
     font-family: 'body';
     font-size: small;
     resize: none;
+    color: ghostwhite;
 }
 
 .form textarea::placeholder{

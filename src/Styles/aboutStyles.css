@@ -1,7 +1,19 @@
+@font-face {
+    font-family: "Header";
+    src: url("../Fonts/Lato.otf") format("woff")
+}
+
+@font-face {
+    font-family: "Body";
+    src: url("../Fonts/LatoRegular.otf") format("woff")
+}
+
 .content {
     margin-left: 7%;
     margin-right: 7%;
+    width: 60%;
     overflow: hidden;
+    font-family: 'Body', fallback, helvetica;
 }
 
 .content p {
@@ -22,9 +34,10 @@
 p a {
     font-weight: bold;
     color: black;
+    text-decoration: underline;
 }
 
 p a:hover {
     text-decoration: none;
-    color: grey;
+    color: #0CF01B;
 }

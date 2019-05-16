@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 import { useState } from 'react';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { loadIcons } from './Images/icons';
@@ -124,7 +125,7 @@ const Main = () =>
                         <Link className="headerContentLink" to='/'><p> Work </p></Link>
                         <Link className="headerContentLink" to='/MessageForm'><p> Say Hello </p></Link>
                     </div>
-                        <a href='./Rincon_Resume.pdf' download='Rincon_Resume.pdf'> Resume </a>
+                        <a href='./Rincon_Resume.pdf' target='_blank'> Resume </a>
                 </div>
             </div>
             <div className="mainContent"> 

@@ -34,7 +34,14 @@ a {
     display: grid;
     grid-template-columns: 2fr 1fr 4fr;
     grid-template-rows: 100%;
+
+    @media only screen and (min-wdth: 768px){
+
 }
+
+}
+
+
 
 #log {
     padding-left: 8%; 
@@ -84,6 +91,8 @@ a {
 .mainLinks {
     text-align: -webkit-center;
     align-self: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .navbar {
