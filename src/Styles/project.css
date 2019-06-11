@@ -16,6 +16,20 @@
   box-shadow: none;
 }
 
+.descriptionText {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.link {
+  text-decoration: underline;
+  color: black;
+}
+
+.link:hover {
+  color: #0CF01B;
+}
+
 .multipleImages {
     margin-bottom: 1%;
 }
@@ -169,5 +183,5 @@
 
 .miniGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
 }

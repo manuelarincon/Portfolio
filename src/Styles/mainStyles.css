@@ -36,14 +36,6 @@ a {
     grid-template-rows: 100%;
 }
 
-@media only screen and (min-width: 768px){
-    /* For everything bigger than 768px */
-    .topNavigation {
-        height: 10%;
-        grid-template-columns: 2fr 1fr 4fr;
-    }
-}
-
 #log {
     padding-left: 8%; 
 }
@@ -157,7 +149,7 @@ a:hover {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
 }
 
 .endNavigation {
@@ -192,4 +184,16 @@ a:hover {
 
 .endHome:hover {
     color: #0CF01B;
+}
+
+@media only screen and (min-width: 768px){
+    /* For everything bigger than 768px */
+    .topNavigation {
+        height: 10%;
+        grid-template-columns: 2fr 1fr 4fr;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

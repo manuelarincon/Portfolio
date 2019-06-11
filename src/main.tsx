@@ -24,7 +24,6 @@ import {Spark} from "./Spark";
 import {UTAOFA} from "./UTAOFA";
 import {LG} from "./LG";
 import "./Styles/mainStyles.css";
-import "./Rincon_Resume.pdf";
 import { PureHeroine } from "./lordeAlbum";
 
 
@@ -53,10 +52,10 @@ const Home = () => {
         <div className="projects">
             <div className="grid">
                 <div className="project9">
-                    <Thumbnail internalLink ="/PureHeroine" image = "../Images/CoverAlbumLorde.png" title = "Pure Heroine" description = "Album Cover Remake" technologies = "Photography | Layout | Illustrator"/>
+                    <Thumbnail internalLink ="/LGEventPro" image = "../Images/LGThum.png" title = "LG Event Pro" description = "Website re-make" technologies = "Layout | Web | SquareSpace"/>
                 </div>
                 <div className="project1">
-                    <Thumbnail internalLink ="/Terry" image = "../Images/1323Thum2.png" title = "Terry" description = "Building Exterior + Wayfinding" technologies = "Presentation | Wayfinding | Team | Mockups"/>
+                    <Thumbnail internalLink ="/PureHeroine" image = "../Images/CoverAlbumLorde.png" title = "Pure Heroine" description = "Album Cover Remake" technologies = "Photography | Layout | Illustrator"/>
                 </div>
                 <div className="project2">
                     <Thumbnail internalLink ="/TLN" image = "../Images/TLNThum.png" title = "TLN" description = "Weighing Automation Systems company rebrand" technologies = "Business Card | Logo | Rebrand"/>
@@ -86,7 +85,7 @@ const Home = () => {
                     <Thumbnail internalLink ="/UTAOFA" image = "../Images/UTAOFAThum.png" title = "UTAOFA" description = "Poster for the School of Architecture" technologies = "Poster | Typography | Graphics"/>
                 </div>
                 <div className="project11">
-                    <Thumbnail internalLink ="/LGEventPro" image = "../Images/LGThum.png" title = "LG Event Pro" description = "Website re-make" technologies = "Layout | Web | SquareSpace"/>
+                    <Thumbnail internalLink ="/Terry" image = "../Images/1323Thum2.png" title = "Terry" description = "Building Exterior + Wayfinding" technologies = "Presentation | Wayfinding | Team | Mockups"/>
                 </div>
             </div>
         </div>
@@ -125,7 +124,7 @@ const Main = () =>
                         <Link className="headerContentLink" to='/'><p> Work </p></Link>
                         <Link className="headerContentLink" to='/MessageForm'><p> Say Hello </p></Link>
                     </div>
-                        <a href='./Rincon_Resume.pdf' target='_blank'> Resume </a>
+                        <a href= '../Images/Rincon_Resume.pdf' target='_blank'> Resume </a>
                 </div>
             </div>
             <div className="mainContent"> 
