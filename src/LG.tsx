@@ -22,13 +22,13 @@ export class LG extends React.Component{
                         <div className="descriptionText">
                             <p>LG Event Pro is an entertainment company based in Houston, Tx.
                             During my final months with them, I worked on MVP SquareSpace
-                            version of their current website.</p>
+                            version of their website.</p>
                             <div></div>
                         </div> 
                         <br />  
                         <div className="descriptionText">     
-                            <p>Bellow is my final work for them in iPad view, they have not 
-                            published this site and still have their old site live.</p>
+                            <p>Bellow is my final work for them in iPad view, they have chosen to not 
+                            published this site and rehired previous developer for their current live webpage.</p>
                         </div>
                     <br /><br />
                         <div className="miniGrid">

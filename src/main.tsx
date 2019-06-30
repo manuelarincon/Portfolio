@@ -150,7 +150,7 @@ const Main = () =>
                             <h1>Lets connect</h1>
                             <div className="endIcons">
                             <Link to='/MessageForm'><img src="./Images/socialIcons/mail.png"></img></Link>
-                            <a href="www.linkedin.com/in/manuela-rincon-creative"><img src="./Images/socialIcons/linkedIn.png"></img></a>
+                            <a href="https://www.linkedin.com/in/manuela-rincon-creative/"><img src="./Images/socialIcons/linkedIn.png"></img></a>
                             <a href="https://github.com/manuelarincon"><img src="./Images/socialIcons/gitHub.png"></img></a>
                             <a href="https://dribbble.com/manuelar"><img src="./Images/socialIcons/dribble.png"></img></a>
                             </div>

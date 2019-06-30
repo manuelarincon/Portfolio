@@ -18,16 +18,46 @@ export class PureHeroine extends React.Component{
         return (
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='Pure Heroine' tagline='Album Cover Remake' /> <br />
-                {printedDescriptions}
-                </div>
-                <div>
-                    <PageSection sectionTitle='Mockups' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/CoverAlbum/Cover+Vinyl.png" />
-                    <img src="./Images/CoverAlbum/insideSleeve.png" />
-                    <img src="./Images/CoverAlbum/back+front.png" />
+                    <PageTitles pageTitle='Pure Heroine' tagline='Album Cover Remake' /> <br />
+                    <div className="descriptionText">
+                            <p>Lorde is a singer/songwriter from New Zealand who released her first album Pure Heroin back in 2013.
+                                A personal project, I was unsatisfied with the albums artwork and created my own version completed 
+                                with the assistance of <a href="https://www.instagram.com/n.eff/?hl=en" target="_black">Neftaly Torres</a> for the photography.  </p>
+                            <div></div>
+                        </div> 
+                        <br />  
+                        <div className="descriptionText">     
+                            <p>Bellow is my final work including the front + back covers + inside slip.</p>
+                        </div>
+                    <br /><br />
+                        <div className="miniGrid">
+                                <div></div>
+                                <img src="./Images/CoverAlbum/Cover+Vinyl.png" />
+                                <div></div>
+                                <div></div>
+                                <img src="./Images/CoverAlbum/insideSleeve.png" />
+                                <div></div>
+                                <div></div>
+                                <img src="./Images/CoverAlbum/back+front.png" />
+                        </div>
+                        <br /><br />
+                            <div className="descriptionText">
+                                <h1>Overview</h1>
+                                <div></div>
+                                <p><b>Role:</b> Visual Designer, Photographer
+                                    <br />
+                                    <br />
+                                    <b>Tools:</b> PhotoShop, Lightroom, Nikon500, Illustrator </p>
+                            </div>
+                    <br /><br />
+                        <div className="descriptionText">
+                            <h1>Concept</h1>
+                            <div></div>
+                            <p>I wanted the album cover to portray the energy of the music while maintaining 
+                                the mystery around the artist and music from the original cover. <br /><br />
+                                Using the head of a mannequin, some bed sheets, two colored lights and a lighter 
+                                I captured the two final images seen in the front cover and inside slip. </p>
+                        </div>
                 </div>
                 <div className="bottomSpace"></div>
             </div>
