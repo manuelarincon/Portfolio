@@ -51,10 +51,10 @@ export class FreshAir extends React.Component {
                             <img src="./Images/FreshAir/webUI.png" />
                             <div></div>
                             <div></div>
-                            <img src="./Images/FreshAir/webUI.png" />
+                            <img src="./Images/FreshAir/mobileUX.png" />
                             <div></div>
                             <div></div>
-                            <img src="./Images/FreshAir/webUI.png" />
+                            <img src="./Images/FreshAir/mobileUI.png" />
                         </div>
                     <br /><br />
                     <div className="descriptionText">
