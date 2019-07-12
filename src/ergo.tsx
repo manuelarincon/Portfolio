@@ -21,33 +21,59 @@ export class Ergo extends React.Component {
         return (
             <div>
                  <div className='projectNoHover'>
-                <PageTitles pageTitle='Ergo Health' tagline='Log in screen' /> <br />
-                {printedDescriptions}
-                </div>
-                <div>
-                    <PageSection sectionTitle='Tentacle Map' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/Ergo/tentacleMap.png" ></img>
-                </div>
-                <div>
-                    <PageSection sectionTitle='Persona' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/Ergo/persona.png" ></img>
-                </div>
-                <div>
-                    <PageSection sectionTitle='Final' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <div className="multipleImages">
-                        <img src="./Images/Ergo/ergoHealth.png" ></img>
+                    <PageTitles pageTitle='Ergo Health' tagline='Patient Registration/Login' /> <br />
+                    <div className="descriptionText">
+                        <p>Ergo Health is my teams solution for a patient's registration and login experience for 
+                            Dell Medicals future Electronic Health Record (E.H.R.) interface. The new Dell Medical School built south 
+                            of the UT campus partnered with the design school for this healthcare interface design project/challenge.</p>
+                        <div></div>
+                    </div> 
+                    <br />  
+                    <div className="descriptionText">     
+                        <p>Divided into teams of 4/5, our team's solution and process:</p>
                     </div>
-                    <div className="multipleImages">
-                        <img src="./Images/Ergo/ergoScreen2.png" ></img>
+                    <br /><br />
+                    <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/Ergo/ergoScreen2.png" />
+                            <div></div>
+                            <div></div>
+                            <img src="./Images/Ergo/ergoScreen1.png" />
                     </div>
-                    <div className="multipleImages">
-                        <img src="./Images/Ergo/ergoScreen1.png" ></img>
+                    <br />< br/>
+                    <div className="descriptionText">
+                        <h1>Overview</h1>
+                        <div></div>
+                        <p><b>Main Roles:</b> UX Research, QA + mockups
+                            <br />
+                            <br />
+                            <b>Tools:</b> GSuite, InVision, Illustrator, Photoshop</p>
+                        </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Problem Statement</h1>
+                        <div></div>
+                        <p>Create a secure and easy to navigate registration/log in that meets HIPAA (Health Insurance 
+                            Portability and Accountability Act) security standards while keeping our key persona at the forefront.
+                        </p>
+                    </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Persona</h1>
+                        <div></div>
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/Ergo/persona.png" ></img>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Tentacle Map</h1>
+                        <div></div>
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/Ergo/tentacleMap.png" ></img>
+                        </div>
                     </div>
                     <div className="bottomSpace"></div>
                 </div>

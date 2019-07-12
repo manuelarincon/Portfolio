@@ -29,24 +29,45 @@ export class FreshAir extends React.Component {
         return (
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='FreshAir' tagline='Air-filter replacement service' /> <br />
-                {printedDescriptions}
+                    <PageTitles pageTitle='FreshAir' tagline='Air-filter replacement service' /> <br />
+                    <div className="descriptionText">
+                        <p>
+                            FreshAir is an air-filter replacement service I conceptualized during a long week of
+                            driving around to various locations in attempt to find air-filters for my own place.
+                        </p>
+                    </div>
+                    <br />
+                    <div className="descriptionText">
+                        <p>
+                            Using this concept as design practice, bellow are the low-fi wireframes + final UI direction.
+                        </p>
+                    </div>
+                    <br /><br />
+                    <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/FreshAir/webUX.png" />
+                            <div></div>
+                            <div></div>
+                            <img src="./Images/FreshAir/webUI.png" />
+                            <div></div>
+                            <div></div>
+                            <img src="./Images/FreshAir/webUI.png" />
+                            <div></div>
+                            <div></div>
+                            <img src="./Images/FreshAir/webUI.png" />
+                        </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Overview</h1>
+                        <div></div>
+                        <p><b>Roles:</b> Research, UI, WireFraming 
+                            <br />
+                            <br />
+                            <b>Tools:</b>Illustrator, AdobeXD</p>
+                        </div>
+                    <br /><br />
+                    <div className="bottomSpace"></div>
                 </div>
-                <div>
-                    <PageSection sectionTitle='WireFrames/UX' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/FreshAir/PhoneUX2.png" ></img>
-                    <img src="./Images/FreshAir/iMacUX.png" ></img>
-                </div>
-                <div>
-                    <PageSection sectionTitle='UI' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/FreshAir/PhoneUI.png" ></img>
-                    <img src="./Images/FreshAir/iMacUI.png" ></img>
-                </div>
-                <div className="bottomSpace"></div>
             </div>
         )
     }

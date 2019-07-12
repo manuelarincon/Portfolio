@@ -19,16 +19,37 @@ export class John extends React.Component{
         return (
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='John' tagline='Personal Trainer App' /> <br />
-                {printedDescriptions}
+                    <PageTitles pageTitle='John' tagline='Personal Trainer App' /> <br />
+                    <div className="descriptionText">
+                        <p>John is a personal trainer and gym owner in the SugarLand area. He was 
+                            interested in building his own personal application in efforts to both 
+                            digitize and increase his sales. This project did not move past the initial
+                            negotiations as John was unaware on the true cost of developing an app.
+                        </p>
+                        <div></div>
+                    </div> 
+                    <br />  
+                    <div className="descriptionText">     
+                        <p>I presented some low-fidelity cut out wireframes based on an initial meeting 
+                            had on Johns expectations on the app. Those cut-outs are bellow. 
+                        </p>
+                    </div>
+                    <br /><br />
+                    <div className="projectNoHover">
+                        <img src="./Images/John/wireframes.png" />
+                    </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Overview</h1>
+                        <div></div>
+                        <p><b>Roles:</b> UX 
+                            <br />
+                            <br />
+                            <b>Tools:</b> Sketch Paper, Pen</p>
+                        </div>
+                    <br /><br />
+                    <div className="bottomSpace"></div>
                 </div>
-                <div>
-                    <PageSection sectionTitle='Wireframes' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/John/wireframes.png" />
-                </div>
-                <div className="bottomSpace"></div>
             </div>
         )
     }

@@ -17,28 +17,49 @@ export class Spark extends React.Component{
         return (
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='Spark' tagline='Album Cover RemakeLayouts for student run fashion magazine' /> <br />
-                {printedDescriptions}
+                <PageTitles pageTitle='Spark Magazine' tagline='Publication Layouts' /> <br />
+                    <div className="descriptionText">
+                            <p>Spark Magazine is a student run fashion magazine that publishes a new issue 
+                                each semester. Students are divided into teams (each with a writer, editor,
+                                stylist, designer, models, hmua and photographer) to create two potential 
+                                stories to be featured that seasons release. 
+                            </p>
+                            <div></div>
+                        </div> 
+                        <br />  
+                        <div className="descriptionText">     
+                            <p>Bellow is my final published design work for them from issues No. 4, 5 and 8.</p>
+                    </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Issue No.4</h1>
+                        <div></div>
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/Spark/no4.png" ></img>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Issue No.5</h1>
+                        <div></div>
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/Spark/no5.png" ></img>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Issue No.8</h1>
+                        <div></div>
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/Spark/no8.png" ></img>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div className="bottomSpace"></div>
                 </div>
-                <div>
-                    <PageSection sectionTitle='No.4' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/Spark/no4.png" />
-                </div>
-                <div>
-                    <PageSection sectionTitle='No.5' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/Spark/no5.png" />
-                </div>
-                <div>
-                    <PageSection sectionTitle='No.8' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/Spark/no8.png" />
-                </div>
-                <div className="bottomSpace"></div>
             </div>
         )
     }

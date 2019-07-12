@@ -17,14 +17,39 @@ export class UTAOFA extends React.Component{
         return (
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='UTAOFA' tagline='Poster for the School of Architecture' /> <br />
-                {printedDescriptions}
+                    <PageTitles pageTitle='UTAOFA' tagline='Poster for the School of Architecture' /> <br />
+                    <div className="descriptionText">
+                            <p>The School of Architecture at UT holds lectures and exhibitions for the students throughout the year. 
+                                They reached out to our TypographyII class to help design that semesters promotion poster to
+                                display in the architecture building. They wanted an eye catching design that highlighted the 
+                                speakers.
+                            </p>
+                            <div></div>
+                        </div> 
+                        <br />  
+                        <div className="descriptionText">     
+                            <p>I challenged myself to only use text for my approach using the color red to bring attention to
+                                the speaker names and solid black lines to create a visual to guide the eye while highlighting 
+                                the school name in the negative space. Bellow is the final poster.
+                            </p>
+                        </div>
+                    <br /><br />
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/UTAOFA/UTAOFA2.png" />
+                        </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Overview</h1>
+                        <div></div>
+                        <p><b>Main Roles:</b> Visual Designer
+                            <br />
+                            <br />
+                            <b>Tools:</b> Illustrator, Photoshop</p>
+                        </div>
+                    <br /><br />
+                    <div className="bottomSpace"></div>
                 </div>
-                <div className="projectNoHover">
-                    <img src="./Images/UTAOFA/UTAOFA1.png" /> <br/><br/>
-                    <img src="./Images/UTAOFA/UTAOFA2.png" />
-                </div>
-                <div className="bottomSpace"></div>
             </div>
         )
     }

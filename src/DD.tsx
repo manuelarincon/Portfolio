@@ -19,16 +19,34 @@ export class DD extends React.Component {
         return(
             <div>
                 <div className='projectNoHover'>
-                    <PageTitles pageTitle='DD' tagline='Watch with a built in breathalyzer' /> <br />
-                    {printedDescriptions}
+                        <PageTitles pageTitle='DD' tagline='Watch with a built in breathalyzer' /> <br />
+                        <div className="descriptionText">
+                            <p>DD is concept for a discrete tool that would help users keep track fo their BAC and prevent them
+                                from drunk driving while educating them on their bodies alcohol limits/tolerance.
+                            </p>
+                            <div></div>
+                        </div> 
+                        <br />  
+                        <div className="descriptionText">     
+                            <p>Bellow is the final interface designs for the breathalyzer watch.</p>
+                        </div>
+                    <br /><br />
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/DD/FinalScreens.png" />
+                        </div>
+                    <br /><br />
+                        <div className="descriptionText">
+                            <h1>Overview</h1>
+                            <div></div>
+                            <p><b>Role:</b> Research, UI Designer
+                                <br />
+                                <br />
+                                <b>Tools:</b> Illustrator, PhotoShop </p>
+                        </div>
+                    <br /><br />
+                    <div className="bottomSpace"></div>
                 </div>
-                <div>
-                    <PageSection sectionTitle='Final' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/DD/FinalScreens.png" ></img>
-                </div>
-                <div className="bottomSpace"></div>
             </div>
         );
     }

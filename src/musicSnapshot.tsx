@@ -18,16 +18,38 @@ export class Methods extends React.Component {
         return(
             <div>
                 <div className='projectNoHover'>
-                <PageTitles pageTitle='MethodOne' tagline='Music Snapshot' /> <br />
-                {printedDescriptions}
+                    <PageTitles pageTitle='MethodOne' tagline='Music Snapshot' /> <br />
+                    <div className="descriptionText">
+                        <p>
+                            Designs method class, method one was to practice a research method and collect intel 
+                            for a week to then visually display. I choose to keep track on my music listening habits
+                            for the week documenting the amount of time listened to the top 5 playlists/genres of music
+                            on my Spotify profile. 
+                        </p>
+                    </div>
+                    <br />
+                    <div className="descriptionText">
+                        <p>
+                            Biggest chunks of time I listened was when commuting and study sessions. Bellow is my final poster.
+                        </p>
+                    </div>
+                    <br /><br />
+                        <div className="miniGrid">
+                            <div></div>
+                            <img src="./Images/Methods/posterMockup.png" />
+                        </div>
+                    <br /><br />
+                    <div className="descriptionText">
+                        <h1>Overview</h1>
+                        <div></div>
+                        <p><b>Roles:</b> Research, UI 
+                            <br />
+                            <br />
+                            <b>Tools:</b> Spotify, Illustrator, Notes</p>
+                        </div>
+                    <br /><br />
+                    <div className="bottomSpace"></div>
                 </div>
-                <div>
-                    <PageSection sectionTitle='Final' /> <br />
-                </div>
-                <div className="projectNoHover">
-                    <img src="./Images/Methods/musicSnapshot.png" ></img>
-                </div>
-                <div className="bottomSpace"></div>
             </div>
         );
     }

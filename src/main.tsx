@@ -84,9 +84,9 @@ const Home = () => {
                 <div className="project10">
                     <Thumbnail internalLink ="/UTAOFA" image = "../Images/UTAOFAThum.png" title = "UTAOFA" description = "Poster for the School of Architecture" technologies = "Poster | Typography | Graphics"/>
                 </div>
-                <div className="project11">
+                {/* <div className="project11">
                     <Thumbnail internalLink ="/Terry" image = "../Images/1323Thum2.png" title = "Terry" description = "Building Exterior + Wayfinding" technologies = "Presentation | Wayfinding | Team | Mockups"/>
-                </div>
+                </div> */}
             </div>
         </div>
     </div> 
